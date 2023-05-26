@@ -1,0 +1,290 @@
+<html>
+    <head>
+        <title>My Project</title>
+        <link rel="stylesheet" href="cs/style.css"/>
+        <link rel="stylesheet" href="cs/blog.css"/>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <a href="https://anoboy.monster/">
+                            <img  style="width: 50px;" src="Image/JR.jpg"/>
+                        </a>
+                    </li>
+                    <li class="item-collapse">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="item-collapse">
+                        <a class="active" href="blog.html">My Project</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="contact.html">Contact Me</a>
+            </div>
+            <div class="nav-right" id="barsmenu">
+                <button style="background-color: transparent; border: none; cursor: pointer;"
+                        onclick="openHamburger()">
+                    <img style="width: 35px" src="Image/bars.png"/>
+                </button>
+            </div>
+        </nav>
+
+        <div class="hamburger-nav-container" id="hamburger-nav-container">
+            <a href="index.html">Home</a>
+            <a href="blog.html" class="hamburger-active">My Project</a>
+            <a href="testimonal.html">Testimonial</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+
+
+        <div class="blog">
+            <div class="blog-form">
+                <div class="form-container">
+                    <form onsubmit="addBlog(event)">
+                        <h1>Add Crew of Straw Hats</h1>
+                        <div>
+                            <label for="input-blog-title">Name of Pirate</label>
+                            <input type="text" id="input-blog-title" />
+                        </div>
+                        <div class="date">
+                            <div class="start-date">
+                                <label for="input-blog-title">Start Date</label>
+                                <input type="date" id="input-blog-start" />
+                            </div>
+                            <div>
+                                <label for="input-blog-title">End Date</label>
+                                <input type="date" id="input-blog-end" />
+                            </div>
+                        </div>
+                        <div class="label">
+                            <label for="inpu-blog-content">Description</label>
+                            <textarea id="input-blog-content"></textarea>
+                        </div>
+                            
+                        <label for="f-cek">Ability</label>
+                        <div class="checkb">
+                                    <div class="fruit">
+                                        <input type="checkbox" id="check-robot">
+                                        <label>Robot</label>
+                                    </div>
+                                    <div class="fruit">
+                                        <input type="checkbox" id="check-gun">
+                                        <label>Gun</label>
+                                    </div>
+                                </div>
+                                <div class="checkb">
+                                    <div class="fruit">
+                                        <input type="checkbox" id="check-sword">
+                                        <label>Sword</label>
+                                    </div>
+                                    <div class="fruit">
+                                        <input type="checkbox" id="check-fruit">
+                                        <label>Fruit</label>
+                                    </div>
+                                </div>
+                            
+                        <div class="label1">
+                            <label>Uploud Image</label>
+                            <div class="input-blog-image-group">
+                                <label for="input-blog-image">
+                                    <p>Choose</p>
+                                    <img style="height: 18px" src="Image/file1.png" alt="file"/>
+                                </label>
+                                <input type="file" id="input-blog-image" hidden />
+                            </div>
+                        </div>
+                        <div class="buttom-group">
+                            <button>Post Blog</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="line" />
+            
+            <div class="project">Crew of Straw Hats</div>
+            
+            <div class="jarak">
+                <div id="contents" class="blog-list">
+                    <div class="blog-list-item">
+                        <div class="blog-image">
+                            <img src="Image/zoro.jpg" alt="blog_img"/>
+                        </div>
+                        <div class="blog-content">
+                            <div class="text-box">
+                                <h1>
+                                    <a style="color: red;" href="blog-detail.html" target="_blank">Zoro is a user of 3 Swords</a>
+                                </h1>
+                                <div style="color: gray; font-size: 15px;">Duration :</div>
+                            <div> 1 Month </div>
+                                <div class="detail-blog-content">
+                                    20 May 2020 20:20 WIB - Roronoa Zoro
+                                </div>
+                                <div>Ability</div>
+                                <img class="img-icon-sword" src="Image/sword.png">
+                                <p>
+                                    Zoro has a stern, serious, and distanced personality, but unlike Robin, he often reacts in a goofy and exaggerated comic style due to his short-tempered and impatient attitude. On the ship, he normally either trains with weights or sleeps. The only work he is seen doing regularly is hoisting the anchor using his great strength and maintaining a lookout in the ship's crow's nest (which on the Thousand Sunny ship also doubles as his personal gym). He also likes sake, almost to the degree that Luffy likes meat, but like Nami, he never gets drunk due to his inhumanly-high endurance and tolerance for alcohol. Another notable trait is his lack of orientation, as Zoro often gets lost, even in small, familiar spaces or when being led by someone. Despite this, he is often the first to sense an enemy or danger and the first to react. He is often displayed as being well aware of dangerous situations and the people around him.
+                                </p>
+                                <a href="https://www.instagram.com/">
+                                    <img
+                                    style="
+                                    width: 5%; image-"
+                                    src="Image/IG.png"
+                                    />
+                                </a>
+                                <a href="https://www.facebook.com/">
+                                    <img
+                                style="
+                                width: 5%;"
+                                src="Image/FB.png"
+                                />
+                                </a>
+                                <a href="https://www.twitter.com/">
+                                    <img
+                                    style="
+                                    width: 5%;"
+                                    src="Image/TWT.png"
+                                    />
+                                </a>
+                                <a href="https://www.twitter.com/">
+                                    <img
+                                    style="
+                                    width: 5%;"
+                                    src="Image/YT.png"
+                                    />
+                                </a>
+                                <div class="btn-group">
+                                    <button class="btn-edit">Edit Post</button>
+                                    <buttom class="btn-delete">Delete Post</buttom>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contents" class="blog-list">
+                    <div class="blog-list-item">
+                        <div class="blog-image">
+                            <img src="Image/sanji.jpg" alt="blog_img"/>
+                        </div>
+                        <div class="blog-content">
+                            <div class="text-box">
+                                <h1>
+                                    <a style="color: red;" href="blog-detail.html" target="_blank">Sanji is Dead of Kick as Chef</a>
+                                </h1>
+                                <div style="color: gray; font-size: 15px;">Duration :</div>
+                            <div> 3 Months </div>
+                                <div class="detail-blog-content">
+                                    15 December 2013 20:20 WIB - Vinsmoke Sanji
+                                </div>
+                                <div>Ability</div>
+                                <img class="img-icon-fruit" src="Image/fruit.png">
+                                <img class="img-icon-robot" src="Image/robot.png">
+                                <p>
+                                    Zoro has a stern, serious, and distanced personality, but unlike Robin, he often reacts in a goofy and exaggerated comic style due to his short-tempered and impatient attitude. On the ship, he normally either trains with weights or sleeps. The only work he is seen doing regularly is hoisting the anchor using his great strength and maintaining a lookout in the ship's crow's nest (which on the Thousand Sunny ship also doubles as his personal gym). He also likes sake, almost to the degree that Luffy likes meat, but like Nami, he never gets drunk due to his inhumanly-high endurance and tolerance for alcohol. Another notable trait is his lack of orientation, as Zoro often gets lost, even in small, familiar spaces or when being led by someone. Despite this, he is often the first to sense an enemy or danger and the first to react. He is often displayed as being well aware of dangerous situations and the people around him.
+                                </p>
+                                <a href="https://www.instagram.com/">
+                                    <img
+                                    style="
+                                    width: 5%; image-"
+                                    src="Image/IG.png"
+                                    />
+                                </a>
+                                <a href="https://www.facebook.com/">
+                                    <img
+                                style="
+                                width: 5%;"
+                                src="Image/FB.png"
+                                />
+                                </a>
+                                <a href="https://www.twitter.com/">
+                                    <img
+                                    style="
+                                    width: 5%;"
+                                    src="Image/TWT.png"
+                                    />
+                                </a>
+                                <a href="https://www.twitter.com/">
+                                    <img
+                                    style="
+                                    width: 5%;"
+                                    src="Image/YT.png"
+                                    />
+                                </a>
+                                <div class="btn-group">
+                                    <button class="btn-edit">Edit Post</button>
+                                    <buttom class="btn-delete">Delete Post</buttom>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="contents" class="blog-list">
+                    <div class="blog-list-item">
+                        <div class="blog-image">
+                            <img src="Image/brook.jpg" alt="blog_img"/>
+                        </div>
+                        <div class="blog-content">
+                            <div class="text-box">
+                                <h1>
+                                    <a style="color: red;" href="blog-detail.html" target="_blank">Brook is a Skull  of Life as Musician</a>
+                                </h1>
+                                <div style="color: gray; font-size: 15px;">Duration :</div>
+                            <div> 1 Month </div>
+                                <div class="detail-blog-content">
+                                    20 May 2020 20:20 WIB - Brook
+                                </div>
+                                <div>Ability</div>
+                                <img class="img-icon-fruit" src="Image/fruit.png">
+                                <img class="img-icon-sword" src="Image/sword.png">
+                                <p>
+                                    Zoro has a stern, serious, and distanced personality, but unlike Robin, he often reacts in a goofy and exaggerated comic style due to his short-tempered and impatient attitude. On the ship, he normally either trains with weights or sleeps. The only work he is seen doing regularly is hoisting the anchor using his great strength and maintaining a lookout in the ship's crow's nest (which on the Thousand Sunny ship also doubles as his personal gym). He also likes sake, almost to the degree that Luffy likes meat, but like Nami, he never gets drunk due to his inhumanly-high endurance and tolerance for alcohol. Another notable trait is his lack of orientation, as Zoro often gets lost, even in small, familiar spaces or when being led by someone. Despite this, he is often the first to sense an enemy or danger and the first to react. He is often displayed as being well aware of dangerous situations and the people around him.
+                                </p>
+                                <a href="https://www.instagram.com/">
+                                    <img
+                                    style="
+                                    width: 5%; image-"
+                                    src="Image/IG.png"
+                                    />
+                                </a>
+                                <a href="https://www.facebook.com/">
+                                    <img
+                                style="
+                                width: 5%;"
+                                src="Image/FB.png"
+                                />
+                                </a>
+                                <a href="https://www.twitter.com/">
+                                    <img
+                                    style="
+                                    width: 5%;"
+                                    src="Image/TWT.png"
+                                    />
+                                </a>
+                                <a href="https://www.twitter.com/">
+                                    <img
+                                    style="
+                                    width: 5%;"
+                                    src="Image/YT.png"
+                                    />
+                                </a>
+                                <div class="btn-group">
+                                    <button class="btn-edit">Edit Post</button>
+                                    <buttom class="btn-delete">Delete Post</buttom>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/blog.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

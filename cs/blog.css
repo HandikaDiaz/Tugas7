@@ -1,0 +1,364 @@
+.blog-form {
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-form .form-container {
+    width: 500px;
+}
+
+.blog-form .formcontainer h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.date {
+    display: flex;
+    margin-top:-15px;
+}
+
+.start-date{
+    margin-right: 10px;
+}
+
+.label {
+    margin-top: -2px;
+}
+
+.blog-form form label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.blog-form form input, textarea {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: darkgray;
+    border: 1px solid black;
+    border-radius: 8px;
+    resize: none;
+}
+
+.blog-form form textarea {
+    height: 250px;
+}
+
+.blog-form form .input-blog-image-group {
+    width: 100%;
+    font-size : 20px;
+    font-weight: 400;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: darkgray;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.blog-form form .input-blog-image-group label p {
+    font-size: 15px; 
+    margin-left:10px;
+}
+
+.blog-form form .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-form form .buttom-group {
+    text-align: right;
+}
+
+.blog-form form button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    font-size: 17px;
+    background: darkred;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.line {
+    border: 1px solid black;
+    width: 100%;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+
+.blog-list {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    margin-left: 15px;
+    margin-right:15px;
+    align-items: center;
+}
+
+.blog-list .blog-list-item {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.blog-list .blog-list-item .blog-image {
+    flex: 1px;
+}
+
+.blog-list .blog-list-item .blog-image img {
+    width: 100%;
+    height: 100%px;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.blog-list .blog-list-item .blog-content {
+    flex: 2;
+}
+
+.blog-list h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-list .detail-blog-content {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: blue;
+}
+
+
+.blog-list .blog-list-item p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-edit {
+    padding: 5px 70px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background: black;
+    color:white;
+    margin-right: 10px;
+}
+
+.btn-delete {
+    padding: 5px 60px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 4px;
+    background: darkred;
+    color: white;
+}
+
+
+
+.blog-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-detail-container {
+    width: 80%;
+    margin: 40px;
+}
+
+.blog-detail-container img {
+    width: 100%;
+}
+
+.blog-detail-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.blog-detail-container .author {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 5px
+}
+
+.blog-detail-container p {
+    margin-top: 40px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: justify;
+
+}
+
+.detail {
+    display: flex;
+    width: 100%;
+}
+
+.zoro {
+    width: 600px;
+}
+
+.icon {
+    display: flex;
+    margin-left: 75px;
+}
+
+.gambar {
+    width: 30px;
+}
+
+.judul {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.semua {
+    display: flex;
+}
+
+.icon2 {
+    display: flex;
+}
+
+.sword {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.fruit {
+    display: flex;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.checkb {
+   display: flex;
+}
+
+.label1 {
+    margin-top: 30px;
+}
+
+.project {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.jarak {
+    display: flex;
+    margin-right: 500px;
+}
+
+.title-text {
+    color: darkred;
+}
+
+.img-icon-fruit {
+    width : 30px;
+}
+
+.img-icon-sword {
+    width: 30px;
+}
+
+.img-icon-gun {
+    width: 30px;
+}
+
+.img-icon-robot {
+    width: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .blog .blog-list .blog-list-item {
+        
+        flex-direction: column;
+    }
+
+    .jarak {
+        flex-direction: column;
+        margin-right: 500px;
+        
+    }
+
+    .blog-list .blog-list-item {
+        width: 150%;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin-left: 190px;
+        margin-top: -60px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .blog .blog-list .blog-list-item {
+        
+        flex-direction: column;
+    }
+
+    .jarak {
+        flex-direction: column;
+        margin-right: 500px;
+        
+    }
+
+    .blog-list .blog-list-item {
+        width: 10000%;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin-left: 138px;
+        margin-top: -60px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .blog .blog-list .blog-list-item {
+        
+        flex-direction: column;
+    }
+
+    .jarak {
+        flex-direction: column;
+        margin-right: 500px;
+        
+    }
+
+    .blog-list .blog-list-item {
+        width: 10000%;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin-left: 70px;
+        margin-top: -60px;
+    }
+}

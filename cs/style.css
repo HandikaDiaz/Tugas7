@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: "Poppinds", sans-serif;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: white;
+}
+
+nav{
+    background-color: Black;
+    display: flex;
+    align-item: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-item: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color:white;
+}
+
+nav ul li .active {
+    color: red;
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+    margin-top: 29px;
+}
+
+.nav-right a {
+    background-color: brown;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.skill {
+    display: flex;
+    width: 800px; 
+    border: 1px white; 
+    color: black; 
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 50px gray;
+}
+
+.luffy {
+    margin-left: 25px;
+}
+
+.text {
+    margin-right: 25px;
+}
+
+form {
+    width: 450px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input,
+ select,
+ textarea {
+    background-color: lightslategray;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.button-blog {
+    background-color: red;
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 353px;
+}
+
+button:hover {
+background-color: red;
+}
+
+section {
+    display: flex;
+}
+
+#barsmenu {
+    display: none;
+}
+
+.hamburger-nav-container {
+    font-size: 23px;
+    list-style-type: none;
+    display: none;
+}
+
+.hamburger-nav-container a {
+    text-decoration: none;
+    color: White;
+    background-color: Black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.hamburger-nav-container .hamburger-active {
+    text-decoration: none;
+    color: White;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.card-container {
+    margin-right: 25px;
+    width: 150%;
+}
+
+@media only screen  and (max-width: 900px) {
+    .card-container {
+        width: 50%;
+    }
+    .text {
+        flex: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .right {
+        margin-left: 0;
+    }
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        flex-direction: column;
+        
+        width: 600px; 
+        border: 1px white; 
+        color: black; 
+        margin: 50px auto;
+        padding: 50px 50px 600px 50px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 0 50px gray;
+    }
+
+    .card-container {
+        margin-top: -600px;
+    }
+
+    .skill {
+        margin-left: -60px;
+    }
+
+    .column {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    
+
+    .item-collapse {
+        display: none;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    #barsMenu {
+        display: block;
+    }
+    
+
+}
+
+@media only screen and (max-width: 550px) {
+    .text {
+        flex-direction: column;
+        width: 400px; 
+        border: 1px white; 
+        color: black; 
+        margin: 50px auto;
+        padding: 50px 50px 600px 50px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 0 50px gray;
+    }
+
+    .card-container {
+        margin-top: -600px;
+    }
+
+    .skill {
+        margin-left: -180px;
+    }
+
+    .column {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .item-collapse {
+        display: none;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    #barsMenu {
+        display: block;
+    }
+    
+    .blog-list .blog-list-item {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+
+    .blog-content {
+        display: flex;
+    }
+}
+

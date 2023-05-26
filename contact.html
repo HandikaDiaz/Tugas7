@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="cs/style.css"/>
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <a href="https://anoboy.monster/">
+                            <img  style="width: 50px;" src="Image/JR.jpg"/>
+                        </a>
+                    </li>
+                    <li class="item-collapse">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="item-collapse">
+                        <a href="blog.html">My Project</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a class="active" href="contact.html">Contact Me</a>
+            </div>
+            <div class="nav-right" id="barsmenu">
+                <button style="background-color: transparent; border: none; cursor: pointer;"
+                        onclick="openHamburger()">
+                        <img style="width: 25px" src="Image/bars.png"/>
+                </button>
+            </div>
+        </nav>
+
+        <div class="hamburger-nav-container" id="hamburger-nav-container">
+            <a href="index.html">Home</a>
+            <a href="blog.html">My Project</a>
+            <a href="testimonal.html">Testimonial</a>
+            <a class="hamburger-active" href="contact.html">Contact Me</a>
+        </div>
+
+
+        <form>
+            <div>
+                <label for="input-name">Name</label>
+                <input id="input-name" height="100" type="text" required/>
+            </div>
+
+            <div>
+                <label for="input-email">Email</label>
+                <input id="input-email" type="email" required/>
+            </div>
+
+            <div>
+                <label for="input-number">Phone Number</label>
+                <input id="input-number" type="number" required/>
+            </div>
+
+            <div>
+                <label for="input-subject">Subject</label>
+            <select id="input-subject">
+                <option value=""hidden>Select</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+            </select>
+            </div>
+
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea id="input-message" rows="5" cols="10"></textarea>
+                <button class="button-blog" type="button" onclick="submitData()" >Submit</button>
+            </div>
+        </form>
+        <script src="js/contact.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
